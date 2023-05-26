@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 import localforage from "localforage";
 
 let data = "";
-const dataSize = 80 * 1024 * 1024; // 20mb
+const dataSize = 50 * 1024 * 1024;
 const possibleChars =
   "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
 
